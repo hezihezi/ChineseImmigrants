@@ -1,70 +1,66 @@
 ChineseGreenCardData = [{
-	years : "1820 to 1829",
+	years : "1820s",
 	persons : 3
 }, {
-	years : "1830 to 1839",
+	years : "1830s",
 	persons : 8
 }, {
-	years : "1840 to 1849",
+	years : "1840s",
 	persons : 32
 }, {
-	years : "1850 to 1859",
+	years : "1850s",
 	persons : 35933
 }, {
-	years : "1860 to 1869",
+	years : "1860s",
 	persons : 54028
 }, {
-	years : "1870 to 1879",
+	years : "1870s",
 	persons : 133139
 }, {
-	years : "1880 to 1889",
+	years : "1880s",
 	persons : 65797
 }, {
-	years : "1890 to 1899",
+	years : "1890s",
 	persons : 15268
 }, {
-	years : "1900 to 1909",
+	years : "1900s",
 	persons : 19884
 }, {
-	years : "1910 to 1919",
+	years : "1910s",
 	persons : 20916
 }, {
-	years : "1920 to 1929",
+	years : "1920s",
 	persons : 30648
 }, {
-	years : "1930 to 1939",
+	years : "1930s",
 	persons : 5874
 }, {
-	years : "1940 to 1949",
+	years : "1940s",
 	persons : 16072
 }, {
-	years : "1950 to 1959",
+	years : "1950s",
 	persons : 8836
 }, {
-	years : "1960 to 1969",
+	years : "1960s",
 	persons : 14060
 }, {
-	years : "1970 to 1979",
+	years : "1970s",
 	persons : 17627
 }, {
-	years : "1980 to 1989",
+	years : "1980s",
 	persons : 170897
 }, {
-	years : "1990 to 1999",
+	years : "1990s",
 	persons : 342058
 }, {
-	years : "2000 to 2009",
+	years : "2000s",
 	persons : 591711
 }, {
-	years : "2010",
-	persons : 67634
-}, {
-	years : "2011",
-	persons : 83603
-}, {
-	years : "2012",
-	persons : 78184
-}, {
-	years : "2013",
-	persons : 68410
+	years : "2010s",
+	persons : 744578
 }];
+
+
+// 2010=67634, 2011=83603, 2012=78184, 2013=68410
+
+
