@@ -1,4 +1,4 @@
-[{
+ChineseGreenCardData = [{
 	years : "1820 to 1829",
 	persons : 3
 }, {
