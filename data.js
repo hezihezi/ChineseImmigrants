@@ -57,7 +57,7 @@ ChineseGreenCardData = [{
 	persons : 591711
 }, {
 	years : "2010s",
-	persons : 744578
+	persons : 744578 //this is 10 times of the sum of the average of first four years. It's an estimated number for the whole 2010s.
 }];
 
 
