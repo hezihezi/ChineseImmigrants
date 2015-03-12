@@ -28,6 +28,9 @@
       data.addColumn('string', 'years');
       data.addColumn('number', 'persons');
       data.addRows(bigArray);
+      
+      var numberFormatter = new google.visualization.NumberFormat({fractionDigits:0});
+      numberFormatter.format(data,1);
 
       var options = {
         width: 1000,
