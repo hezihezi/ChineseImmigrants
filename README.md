@@ -23,6 +23,10 @@ Process Data:
 For 2010s, we only have statistics for 2010-2013. Therefore, I calculated an estimated number for the whole decade =
 10 times of the average of the sum of the first four years. 
 
+ColumnChart:
+
+I picked column chart because I'm comparing number of persons obtained green cards in these decades. 
+
 Configurations:
 
 1. Formatted the number of persons as number with commas and 0 digit after the decimal point. 
