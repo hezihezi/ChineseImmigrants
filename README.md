@@ -27,8 +27,12 @@ Configurations:
 
 1. Formatted the number of persons as number with commas and 0 digit after the decimal point. 
 
-2. textStyle for numbers of x-axis and y-axis: Helvetica, 11, bold, black
+2. textStyle for numbers of x-axis and y-axis: Helvetica, 11, bold, black.
 
-3. textStyle for verticle title: '#406214', 14
+3. textStyle for verticle title: '#406214', 14.
 
 4. QUESTION: why the textStyle and the Outsidebar configurations do not work on annotations?
+
+5. QUESTION2: I know the annotations of those three numbers do not work very well, but I think it's really interesting to show that there were so few people before 1850s. How should I do that?
+
+
