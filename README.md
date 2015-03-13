@@ -39,3 +39,6 @@ Configurations:
 
 
 QUESTION: I know the annotations of those three numbers do not work very well, but I think it's really interesting to show that there were so few people before 1850s. How should I do that?
+
+ONE MORE QUESTION: I wanted to put the vars for textStyle into the styles.css file, but then they no longer work. What's wrong? 
+
