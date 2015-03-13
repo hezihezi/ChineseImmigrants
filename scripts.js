@@ -1,4 +1,12 @@
-    // Load the Visualization API and the column chart package.
+
+	 myNumberTextStyle = {
+	      fontName: 'Helvetica',
+	      fontSize: 11,
+	      bold: true,
+	      color: '#000000',    
+      };
+ 
+ // Load the Visualization API and the column chart package.
     google.load('visualization', '1', {packages: ['corechart']});
     // Set a callback to run when the Google Visualization API is loaded.
     google.setOnLoadCallback(drawChart);
@@ -20,31 +28,56 @@
       		smallArray.push(everyTen.persons);
       		
       		if (everyTen.years == "2010s"){
-      		smallArray.push('color: #6AA121;fill-opacity: 0.2')
+      		smallArray.push('color: #6AA121;fill-opacity: 0.5')
       	}else
-      		smallArray.push('color: #6AA121');		
+      		smallArray.push('color: #6AA121');	
+      		
+      	// I know this is redundant, but I don't know how to include three keys in one if statement. 		
+      		if (everyTen.years == "1820s"){
+      		smallArray.push(everyTen.persons)
+      	}else
+      		smallArray.push(0);	   		
+      			if (everyTen.years == "1830s"){
+      		smallArray.push(everyTen.persons)
+      	}else
+      		smallArray.push(0);	      		
+      			if (everyTen.years == "1840s"){
+      		smallArray.push(everyTen.persons)
+      	}else
+      		smallArray.push(0);	
+      		if (everyTen.years == "2010s"){
+      		smallArray.push("projected")
+      	}else
+      		smallArray.push("");	
+      		
       		
       		bigArray.push(smallArray);
       	
       }//end of for loop
-
       
       var data = new google.visualization.DataTable();
       data.addColumn('string', 'years');
       data.addColumn('number', 'persons');
       data.addColumn({type:'string', role:'style'})
+      data.addColumn({type:'number', role:'annotation'})
+      data.addColumn({type:'number', role:'annotation'})
+      data.addColumn({type:'number', role:'annotation'})
+      data.addColumn({type:'string', role:'annotation'})
       data.addRows(bigArray);
       
       var numberFormatter = new google.visualization.NumberFormat({fractionDigits:0});
       numberFormatter.format(data,1);
 
       var options = {
+      	title: "The Number of Chinese Getting Green Cards Is Growing Rapidly",
+      	annotations: true,// why this is not putting the annotation out of the bar??
         hAxis: {},
         vAxis: {}
       };
 
-		options.hAxis
-		options.vAxis.title = "persons obtaining green cards in the given decade"
+		options.hAxis.textStyle =  myNumberTextStyle;
+        options.vAxis.textStyle = myNumberTextStyle;  
+		options.vAxis.title = "persons obtaining green cards in the given decade";
 		
 		
       var chart = new google.visualization.ColumnChart(
@@ -52,4 +85,3 @@
 
       chart.draw(data, options);
     }
-      
