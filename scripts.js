@@ -13,13 +13,11 @@
 	      color: '#406214',    
       };
       
-      
       verticleTitleTextStyle = {
       	title:  'Persons Obtaining Green Cards', 
       	titleTextStyle: {color: '#406214', fontSize: 14, italic:false}
       	};
       	
-      
  
  // Load the Visualization API and the column chart package.
     google.load('visualization', '1', {packages: ['corechart']});
@@ -86,6 +84,7 @@
       var options = {
       	title: "The Number of Chinese Getting Green Cards Is Growing Rapidly",
       	annotations: {},
+      	legend: {position:'none'},
         hAxis: {},
         vAxis: {}
       };
@@ -95,7 +94,7 @@
 		options.vAxis = verticleTitleTextStyle;
 		options.annotations = true;// why this is not putting the annotation out of the bar??
 		options.annotations.textStyle = annotationsTextStyle;//This is not working either.
-		
+	
 		
       var chart = new google.visualization.ColumnChart(
         document.getElementById('chart_div'));
