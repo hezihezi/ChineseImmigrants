@@ -27,12 +27,15 @@ Configurations:
 
 1. Formatted the number of persons as number with commas and 0 digit after the decimal point. 
 
-2. textStyle for numbers of x-axis and y-axis: Helvetica, 11, bold, black.
+2. textStyle for numbers of x-axis and y-axis: Helvetica, 12, bold, black.
 
 3. textStyle for verticle title: '#406214', 14.
 
-4. QUESTION: why the textStyle and the Outsidebar configurations do not work on annotations?
+4. textStyle for annotations: Helvetica, 13, bold,#406214. 
 
-5. QUESTION2: I know the annotations of those three numbers do not work very well, but I think it's really interesting to show that there were so few people before 1850s. How should I do that?
+5. Changed the bar color to #6AA121 (green), because we are talking about green cards! For the porjected bar, I put on 50% fill-opacity.
+[I didn't use a different color because both Dona Wong and Albert Sun said fewer color the better.]
 
 
+
+QUESTION: I know the annotations of those three numbers do not work very well, but I think it's really interesting to show that there were so few people before 1850s. How should I do that?
